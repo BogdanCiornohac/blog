@@ -1,0 +1,44 @@
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  z-index: -1;
+}
+
+.layer1 {
+  background-image: url('../src/components/images/layer.svg');
+  position: fixed;
+  top: 0;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 40px;
+  margin: 10px 0px 10px 20px;
+  color: white;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-area {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.forms {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1000ms;
+}
+
+

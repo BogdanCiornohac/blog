@@ -1,0 +1,119 @@
+.signup-form {
+    position: absolute;
+    background-color: #DFF5F2;
+    margin-top: 25px;
+    border: 4px solid #2F9296;
+    border-radius: 40px;
+    box-shadow: 2px 5px 25px;
+    height: 600px;
+    width: 600px;
+    padding-bottom: 10px;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: transform 1000ms;
+}
+
+.rotated{
+    transform: rotateY(180deg);
+}
+.title-form {
+    font-weight: 500;
+    text-align: center;
+    font-size: 70px;
+    color: #64c0c3;
+    text-shadow: 1px 2px #a6eef1;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 500px;
+}
+
+input {
+    outline: none;
+    border-radius: 40px;
+    padding: 20px;
+    background-color: #8ae5e8;
+    border-color: white;
+    font-size: 18px;
+    box-shadow: inset 5px 5px 2px #2F9296;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 2px;
+    margin-top: 40px;
+}
+
+.button-form {
+    background-color: #64c0c3;
+    border: none;
+    padding: 1rem;
+    font-size: 20px;
+    width: 8em;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 0 0.4rem #a6eef1;
+    cursor: pointer;
+}
+
+.button-form:active {
+    color: #64c0c3;
+    box-shadow: 0 0.2rem #a6eef1;
+    transform: translateY(0.2rem);
+}
+
+.button-form:hover:not(:disabled) {
+    background: #84cfd2;
+    color: white;
+}
+
+.signup-text {
+    font-size: 20px;
+}
+
+.log-text {
+    color: #64c0c3;
+    cursor: pointer;
+}
+
+.log-text:hover {
+    color: #84cfd2;
+}
+
+.container-form {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.login-form {
+    position: absolute;
+    backface-visibility: hidden;
+    background-color: #DFF5F2;
+    margin-top: 25px;
+    border: 4px solid #2F9296;
+    border-radius: 40px;
+    box-shadow: 2px 5px 25px;
+    height: 600px;
+    width: 600px;
+    padding-bottom: 10px;
+    transform: rotateY(180deg);
+    text-align: center;
+}
+
+.container-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
