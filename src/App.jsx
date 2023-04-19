@@ -1,23 +1,17 @@
 import React from 'react';
-import SignUp from './components/SignUp/SignUp';
+import Auth from './components/Auth/Auth'
+import MainPage from './components/MainPage/MainPage'
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
 function App() {
 
   return (
-    <>
-      <div className="container">
-        <div className="spacer layer1"></div>
+    <Routes>
+      <Route path="/" element={<Auth />} />
+      <Route path="/app" element={<MainPage />} />
+    </Routes>
 
-        <div className='title'>
-          <h1>Feel Reviewed</h1>
-        </div>
-
-        <div className='card-area'>
-            <SignUp />
-        </div>
-      </div>
-    </>
   );
 }
 

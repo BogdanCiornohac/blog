@@ -1,0 +1,38 @@
+.title {
+    font-weight: 500;
+    font-size: 40px;
+    margin: 10px 0px 10px 20px;
+    color: white;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-area {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .forms {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1000ms;
+  }
+  
+  
+  @media  screen and (max-width: 650px) {
+    .card-area{
+      width: 450px;
+      height: 450px;
+    }
+
+    .title{
+      font-size: 25px;
+    }
+  }

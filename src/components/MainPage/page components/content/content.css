@@ -1,0 +1,27 @@
+.content-container {
+    display: flex;
+    margin-top: 5%;
+    width: 70%;
+    height: 600px;
+    border: none;
+    border-radius: 10px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: block;
+}
+
+.content-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.container-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+}

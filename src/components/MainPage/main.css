@@ -1,0 +1,31 @@
+
+.spacer3 {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    display: flex;
+    bottom: 0;
+}
+
+.layer2 {
+    background-image: url('../images/layer2.svg');
+    position: fixed;
+    
+}
+
+.main-page{
+    display: flex;
+    flex-direction:row ;
+}
+
+@media  screen and (max-width: 1200px) {
+    .main-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
