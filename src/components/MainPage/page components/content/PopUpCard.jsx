@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { Rating } from "react-simple-star-rating";
 import './popupcard.css'
 
@@ -38,30 +38,27 @@ const PopUpCard = (props) => {
             <div className="popup-overlay" >
                 <div className="popup-card" >
                     <div className="content-popup" >
+
                         <div className="header-popup">
-                            <h1>Add Review</h1>
-                            <div>
-                                <button onClick={() => props.setTrigger(false)} className="btn-close">X</button>
-                            </div>
+                            <h1 style={{ fontSize: '60px' }}>Add Review</h1>
+                            <button className="btn" onClick={() => props.setTrigger(false)} ><span>X</span></button>
                         </div>
-                        <div>
-                            <input type="text" placeholder="Title Review" />
-                        </div>
-                        <div>
-                            <textarea name="Say sometginh about it..." id="1" cols="40" rows="10"></textarea>
-                        </div>
-                        <div>
-                            <Rating
-                                onClick={handleRating1}
-                                size={30}
-                                transition
-                                allowFraction
-                                initialValue={0}
-                                showTooltip
-                                tooltipArray={tooltipArray}
-                                fillColorArray={fillColorArray}
-                            />
-                        </div>
+
+                        <input type="text" placeholder="Write title here..." name="text" class="input" />
+
+                        <textarea name="Say sometginh about it..." id="1" cols="60" rows="15"></textarea>
+
+                        <Rating
+                            onClick={handleRating1}
+                            size={30}
+                            transition
+                            allowFraction
+                            initialValue={0}
+                            showTooltip
+                            tooltipArray={tooltipArray}
+                            fillColorArray={fillColorArray}
+                        />
+
                     </div>
                 </div>
             </div>

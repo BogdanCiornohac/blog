@@ -6,7 +6,7 @@ import poz2 from '../../../images/no.jpg'
 const data =[
     {   
         user: 'mihaiTe',
-        title:"plm frate",
+        title:"Lorem ipsum",
         photo: cat,
         text: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu nisl lectus. Mauris sed mauris vel lorem imperdiet sodales. Nam laoreet risus erat, vel venenatis nisi scelerisque pellentesque. Morbi sed lectus feugiat, facilisis lacus ut, porta neque. Nam tincidunt mi ut sapien luctus euismod. Aenean tristique felis tellus, at pulvinar leo auctor vitae. Donec consequat lectus metus, at viverra mauris mollis id. Duis lobortis rutrum tristique.',
         fav: true,
@@ -15,7 +15,7 @@ const data =[
     },
     {
         user: 'budan',
-        title:"Lorem plm",
+        title:"Lorem",
         photo: poza1,
         text:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sagittis ligula. Etiam eget arcu sodales, lacinia mi at, suscipit eros. Fusce at interdum felis, sit amet ultrices sapien. Pellentesque non lorem pharetra, rutrum erat a, molestie augue. Sed in egestas turpis. Maecenas quis ullamcorper tortor. Suspendisse quis lectus non nulla facilisis semper a sit amet est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut non luctus ligula. Aenean justo nisi, facilisis eget convallis eu, ultricies suscipit enim. Curabitur sit amet libero quis massa ullamcorper eleifend non et eros. Mauris nec odio ultricies, posuere magna id, congue turpis. Sed nec eleifend dolor, eu aliquet ante. Suspendisse porta semper erat, vel posuere nulla dignissim sed.',
         fav: false,
@@ -24,7 +24,7 @@ const data =[
     },
     {
         user: 'narcis09',
-        title: "plm",
+        title: "Titlu",
         photo: poza,
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sagittis ligula. Etiam eget arcu sodales, lacinia mi at, suscipit eros. Fusce at interdum felis, sit amet ultrices sapien. Pellentesque non lorem pharetra, rutrum erat a, molestie augue. Sed in egestas turpis. Maecenas quis ullamcorper tortor. Suspendisse quis lectus non nulla facilisis semper a sit amet est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut non luctus ligula. Aenean justo nisi, facilisis eget convallis eu, ultricies suscipit enim. Curabitur sit amet libero quis massa ullamcorper eleifend non et eros. Mauris nec odio ultricies, posuere magna id, congue turpis. Sed nec eleifend dolor, eu aliquet ante. Suspendisse porta semper erat, vel posuere nulla dignissim sed.',
         fav: true,
@@ -33,7 +33,7 @@ const data =[
     },
     {
         user:'prodanoi',
-        title:"plm frate",
+        title:"Ok",
         photo: poz2,
         text: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu nisl lectus. Mauris sed mauris vel lorem imperdiet sodales. Nam laoreet risus erat, vel venenatis nisi scelerisque pellentesque. Morbi sed lectus feugiat, facilisis lacus ut, porta neque. Nam tincidunt mi ut sapien luctus euismod. Aenean tristique felis tellus, at pulvinar leo auctor vitae. Donec consequat lectus metus, at viverra mauris mollis id. Duis lobortis rutrum tristique.',
         fav: false,

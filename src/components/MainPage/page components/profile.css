@@ -35,7 +35,7 @@
     transform: translate(-52%);
 }
 
-.input {
+.input1 {
     width: 22%;
     padding: 10px 0px 10px 40px;
     border-radius: 9999px;
@@ -55,7 +55,7 @@
     transition: all .2s ease-in-out;
 }
 
-.input:focus {
+.input1:focus {
     opacity: 1;
     width: 95%;
     margin: 0;
